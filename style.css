@@ -14,30 +14,32 @@
                    background-color:white; 
                    text-align: center;
                    font-weight: bold;
-                   box-shadow:100px;
+                   box-shadow:0 0 10px goldenrod;
                    margin: 0 auto;
                    width: 400px;
                 }
            #form{  text-align: justify;
                    width: 400px;
-                   margin: 25px;
+                   margin: 50px;
                    border-radius:5px;
                 }
         #button{   background-color: rgb(24, 119, 242);
                    width: 300px;
-                  margin: 10px;
+                   height: 30px;
+            
                   border-radius: 5px;
                  color: aliceblue;
                 }
-          input,select,textarea
+          input,select
                 {width: 300px;
                  height: 30px;
-                  border-radius: 50px gray;
+                 border-radius:5px ;
+                 border: 1px solid gray;
                 }
          select{background-color: gray;
                 border-radius: 5px;
                 }
-                 span{font-weight: 900;}
                 textarea{height: 60px;
-                border: 1px solid gray;
-            border-radius: 5px;}
+                        border: 1px solid gray;
+                       border-radius: 5px;
+                       width: 300px;}
