@@ -1,7 +1,48 @@
-echo "# html-css-project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/saharatajim/html-css-project.git
-git push -u origin main
+<!--🌐 HTML Structure
+- <!DOCTYPE html> → Declares HTML5 document type.
+- <html lang="en"> → Sets language to English.
+- <head> section:
+- <meta charset="UTF-8"> → Supports all characters.
+- <meta name="viewport"...> → Makes page responsive on mobile.
+- <title> → Page title shown in browser tab.
+- <style> → Internal CSS styling.
+- <body> section:
+- Contains a main container <div class="border">.
+- Inside: a heading (<h1>), a paragraph (<p>), and a form (<form id="form">).
+- Form fields:
+- <label> + <input> for Name, Email, Phone.
+- <select> dropdown for Topic.
+- <textarea> for Message.
+- <button> for Submit.
+
+🎨 CSS Concepts
+- Global Reset (*) → Removed default margin/padding, used box-sizing: border-box.
+- Flexbox on body:
+- display: flex;
+- justify-content: center; → Center horizontally.
+- align-items: center; → Center vertically.
+- height: 100vh; → Full viewport height.
+- .border class (main box):
+- Background white, rounded corners (border-radius: 20px).
+- Centered with margin: 0 auto;.
+- Fixed width (400px).
+- Shadow (box-shadow).
+- #form styling:
+- Width 400px, margin 25px, rounded corners.
+- Text aligned justify.
+- #button styling:
+- Blue background, white text.
+- Rounded corners, fixed width.
+- Inputs, Select, Textarea:
+- Width 300px, height 30px.
+- Rounded corners (border-radius).
+- textarea taller (60px) with gray border.
+- select has gray background.
+- Typography:
+- font-weight: bold; for .border.
+- span { font-weight: 900; } → Extra bold text inside <span>.
+
+⚠️ Small Mistakes to Fix
+- border: 50px; → Needs style & color (e.g., border: 1px solid gray;).
+- box-shadow: 100px; → Incomplete, should be like box-shadow: 0 0 10px gray;.
+- border-radius: 50px gray; → Invalid, should be border-radius: 50px; (color doesn’t apply here).
